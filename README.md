@@ -1,6 +1,22 @@
-# yepp
+# yepp-app
 
-A new Flutter project.
+## A Flutter app that showcase nearby restaurants.
+
+Using clean architecture, bloc, hive.
+
+<p float="left">
+<img src='ss_1.png' width="200" />
+<img src='ss_2.png' width="200" />
+<img src='ss_3.png' width="200" />
+</p>
+
+Roadmap:
+- Save favorite places to db.
+- Improve UI.
+- Fix bloc bugs.
+
+
+
 
 ## Getting Started
 
