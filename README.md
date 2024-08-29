@@ -4,11 +4,11 @@
 
 # Features:
   - Clean architecture.
-  - Bloc
+  - Bloc.
   - Hive.
   - Firebase.
-  - Go_router
-  - Shared Preferences
+  - Go_router.
+  - Shared Preferences.
     
 <p float="left">
 <img src='ss_1.png' width="200" />
