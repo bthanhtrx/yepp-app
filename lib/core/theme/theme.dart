@@ -24,16 +24,22 @@ class AppTheme {
 
   static final lightThemeMode = ThemeData.light().copyWith(
       scaffoldBackgroundColor: AppPallete.backgroundColorLight,
+      bottomNavigationBarTheme: BottomNavigationBarThemeData(
+        backgroundColor: AppPallete.backgroundColorLight,
+        elevation: 0,
+      ),
       appBarTheme: const AppBarTheme(
           backgroundColor: AppPallete.backgroundColorLight,
           iconTheme: IconThemeData(color: Colors.black)),
       chipTheme: const ChipThemeData(
           color: MaterialStatePropertyAll(AppPallete.backgroundColorDark),
           side: BorderSide.none),
-      textTheme: TextTheme(
-              titleLarge: TextStyle(color: Colors.cyan),
-              titleMedium: TextStyle(color: Colors.yellow))
-          .apply(),
+      // textTheme: TextTheme(
+      //         titleLarge: TextStyle(color: Colors.black87),
+      //         titleMedium: TextStyle(color: Colors.black87),
+      //         titleSmall: TextStyle(color: Colors.black87),
+      // ),
+
       inputDecorationTheme: InputDecorationTheme(
           contentPadding: const EdgeInsets.all(27),
           focusedBorder: _border(AppPallete.gradient2),
