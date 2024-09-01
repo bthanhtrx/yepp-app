@@ -1,6 +1,6 @@
 # yepp-app
 
-## A Flutter app that showcase nearby restaurants.
+## A Flutter app that showcase nearby attractions.
 
 # Features:
   - Clean architecture.
